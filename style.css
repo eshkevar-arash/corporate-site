@@ -1,0 +1,264 @@
+@font-face {
+    /*font-family: 'yekan';
+    src: url('fonts/yekan.ttf') format('truetype'),
+    url('fonts/yekan.eot?#iefix') format('embedded-opentype');*/
+    font-family: 'medium';
+    src: url('fonts/font_Medium.ttf') format('truetype'),
+    url('fonts/font_Medium.eot?#iefix') format('embedded-opentype'),
+    url('fonts/font_Medium.woff') format('woff');
+
+}
+
+@font-face {
+    /*font-family: 'yekan';
+    src: url('fonts/yekan.ttf') format('truetype'),
+    url('fonts/yekan.eot?#iefix') format('embedded-opentype');*/
+    font-family: 'yekan';
+    src: url('fonts/Byekan.ttf') format('truetype'),
+    url('fonts/Byekan.eot?#iefix') format('embedded-opentype');
+
+}
+.mediumFont{
+    font-family: medium;
+}
+.yekanFont{
+    font-family: yekan;
+}
+:focus{outline: none}
+
+body{
+    font-family: medium;
+}
+* {
+    text-align: right;
+    direction: rtl;
+
+}
+input{
+    font-family: medium;
+}
+textarea{
+    font-family: medium;
+    resize: none;
+}
+a {
+    text-decoration: none;
+    transition: color linear 1000ms;
+    color: #00002e;
+}
+a:hover{
+text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0
+}
+
+li {
+    list-style: none
+}
+.btn{
+    padding: 10px 20px;border-radius: 4px;box-shadow: 0 2px 3px rgba(0,0,0,.2);overflow: hidden;font-size: 0.95rem;color: white;
+}
+.btn-section{text-decoration: none;border: 2px dotted #2e353d;box-shadow: none;color: #2e353d;font-weight: bold;font-size:0.9rem;position: relative;z-index: 1}
+.btn-section::after{content: "";display: block;background: gold;position: absolute;top: 0;right: 0;width: 100%;height: 0;z-index: -1;transition: height 300ms linear}
+.btn-section:hover::after{height: 100%}
+.btn-section:hover{color: white}
+/*===============header-top===========*/
+header{}
+header .header-top{background: #00002e;color: white;padding: 20px 0;font-size: 14px;}
+header .header-top .header-address{float: right;}
+header .header-top .header-address ul{float: right;}
+header .header-top .header-address ul li{float: right;padding: 0 10px 0 20px}
+header .header-top .header-social{float: left;}
+header .header-top .header-social ul{float: left;}
+header .header-top .header-social ul li{float: left;}
+header .header-top .header-social ul li a{padding: 0 10px;color: white;}
+header .header-top .header-social ul li a:hover{color: #d80f59;font-size: 18px}
+
+/*===============header-top===========*/
+header .header-main{padding: 10px 0;font-size: 0.95rem;}
+header .header-main .right{float: right}
+header .header-main .right ul{float: right;margin-top: 17px;}
+header .header-main .right >ul >li{float: right;}
+header .header-main .right >ul> li >a{padding: 0 10px 0 20px;text-decoration: none;font-weight: bold;color: #00020e}
+header .header-main .right >ul> li >a:hover{color: darkorange}
+header .header-main .logo-top{float: left;text-align: left}
+header .header-main .logo-top a{width: 108px;height: 58px;float: left;margin-left: 10px;}
+header .header-main .logo-top img{width: 100%;height:100%;}
+
+/*============sider-section===============*/
+.slider-section{box-shadow: 0 2px 3px rgba(0,0,0,.15);}
+.slider-section .carousel-item .slider-text{position: absolute;text-align: center;color: white;margin: 0 auto;left: 0 ;right: 0;top: 30%;max-width: 800px;}
+.slider-section .carousel-item .slider-text *{text-align: center}
+.slider-section .carousel-item .slider-text p{line-height: 40px;margin: 30px 0;max-height: 170px;overflow: hidden}
+.slider-section .carousel-item .slider-tex h1{max-height: 35px;overflow: hidden}
+.slider-section .carousel-item .slider-text a{text-decoration: none;margin: 0 10px;}
+.slider-section .carousel-item .slider-text a.btn1{background: #ef394e}
+.slider-section .carousel-item .slider-text a.btn2{background: #000047}
+.slider-section .carousel-item img{;width: 100%}
+.slider-section .carousel-indicators{bottom: 0;}
+
+/*==========service section=============*/
+.service-section{;color: #00020e;padding: 100px 0;}
+.service-section .title{margin: 0 auto;max-width: 750px;}
+.service-section .title *{}
+.service-section .title h2{margin: 0 0 20px 0;}
+.service-section .title p{margin: 0;font-size: 0.95rem;line-height: 30px}
+.service-section ul{width: 100%;margin-top: 10px}
+.service-section ul li{float: right;}
+.service-section ul li{margin-top: 50px;}
+.service-section ul li span{display: block;width: 100px;height: 100px;border-radius: 50%;background: #000047;text-align: center;margin: 0 auto}
+.service-section ul li span i{position: relative;top: 32px;color: #ef394e}
+.service-section ul li h4 {margin: 30px 0;}
+.service-section ul li h4 a{text-decoration: none}
+.service-section ul li p{margin: 0;font-size: 0.95rem}
+
+/*=================counter-section===============*/
+.counter-section{;box-shadow: 0 2px 3px rgba(0,0,0,.15);background-image: url('images/img-section.jpg');color: white;background-attachment: fixed;background-position: center center;background-size: cover;overflow:hidden}
+.counter-section .content{width: 100%;padding: 50px 0 100px 0;}
+.counter-section img{width: 100%;height: 500px;position: absolute;top: 0;right: 0;}
+.counter-section ul{width: 100%;float: right}
+.counter-section ul li{float: right;margin-top: 50px;}
+.counter-section ul li span{display: block;text-align: center;margin: 20px 0 15px 0;font-size: 3rem;color: darksalmon}
+.counter-section ul li h4{text-align: center;margin: 0}
+
+/*=================portfolio-section===============*/
+.portfolio-section{ padding: 100px 0;}
+.portfolio-section .title{max-width: 750px;margin: 0 auto}
+.portfolio-section .title h2{margin: 0 0 20px 0;color: #00020e}
+.portfolio-section .title p{margin: 0;font-size: 0.95rem;line-height: 30px;color: #00020e}
+.portfolio-section .content{width: 100%;margin-top: 50px;float: right}
+.portfolio-section .content ul{width: 100%;float: right}
+.portfolio-section .content ul li{overflow: hidden;float: right;position: relative;margin-bottom: 30px;color: white;height: 237.613px;cursor: pointer;}
+.portfolio-section .content ul li *{text-align: center;}
+.portfolio-section .content ul li img{border-radius: 4px;width:100%;border: 5px solid white;height: 100%;}
+.portfolio-section .content ul li .layout{border-radius: 4px;position: absolute;z-index: 2;width: 350px;height: 100%;top: 0;right: 14px;background:rgba(24, 30, 201,.3);transform: scale(0);opacity: 0;transition: all 350ms linear}
+.portfolio-section .content ul li .layout .sub-layout *{text-align: center;}
+.portfolio-section .content ul li .layout .sub-layout{
+    border-radius: 4px;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 16px 0;
+    border: 3px dotted white;
+}
+.portfolio-section .content ul li .layout .sub-layout p{font-size: 0.95rem;padding: 0 15px;margin-bottom: .8rem}
+.portfolio-section .content ul li .layout .sub-layout h3{padding: 0 15px}
+.portfolio-section .content .d-button{width: 100%;float: right;text-align: center}
+.portfolio-section .content .d-button a{}
+.portfolio-section .content ul li .layout i{}
+.portfolio-section .content ul li .layout.active{transform: scale(1);opacity: 1;}
+
+/*=================company-section===============*/
+.company-section{color: #00020e;padding-bottom: 100px;}
+.company-section .title{max-width: 750px;margin: 0 auto}
+.company-section .title h2{margin: 0 0 20px 0}
+.company-section .title p{margin: 0;font-size: 0.95rem;line-height: 30px}
+.company-section .content{width: 100%;margin-top: 50px;float: right}
+.company-section .content ul{width: 100%;float: right;padding: 0;}
+.company-section .content ul li{float: right;margin-top: 30px;}
+.company-section .content ul li a{display: block;width: 100%;height: 113.333px;box-shadow: 0 0 5px -1px rgba(0,0,0,.2)}
+.company-section .content ul li img{width: 100%;height: 100%;}
+
+/*=================customer-section===============*/
+.customer-section{color: #00020e;background-image: url('images/img-customer-section.jpg');background-attachment: fixed;background-position: center center;background-size: cover;;width: 100%;}
+.customer-section .customer-layout{width: 100%;height: 100%;background: rgba(0,0,0,.7);padding: 100px 0;}
+.customer-section .title{max-width: 750px;margin: 0 auto;}
+.customer-section .title h2{margin: 0 0 20px 0;color: white}
+.customer-section .title p{margin: 0;font-size: 0.95rem;line-height: 30px;color: #aeaeae}
+.customer-section .content{width: 100%;float: right;margin-top: 50px;}
+.customer-section .content ul{padding: 0;width: 100%;float: right;margin: 0}
+.customer-section .content ul li{margin-top: 30px;float: right;}
+.customer-section .content ul li .contentLi{width: 100%;background: white;border-radius: 4px;float: right;padding: 20px 0;position: relative}
+.customer-section .content ul li .contentLi p{margin: 0 0 20px 0 ;font-size: .7rem;max-height: 100px;overflow-x: hidden;overflow-y: auto;line-height: 22px;padding: 0 10px;text-align: center}
+.customer-section .content ul li .contentLi .right{float: right;font-size: .95rem;margin-right: 10px}
+.customer-section .content ul li .contentLi .right a{text-decoration: none;font-size: .95rem;color: #888}
+.customer-section .content ul li .contentLi .right span{display: block;margin-top: 10px;}
+.customer-section .content ul li .contentLi .left{float: left;margin-top: 15px;margin-left: 10px;}
+.customer-section .content ul li .contentLi .left i{color: gold}
+.customer-section .content ul li img{margin-top: 25px;width: 70px;height: 70px;border-radius: 50%;float: right;margin-right: 25px;}
+.customer-section .content ul li .contentLi::after{content: "";
+    position: absolute;
+    right: 50px;
+    bottom: -15px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 10px 0 10px;
+    border-color: white transparent transparent transparent;
+}
+/*=================newsletter-section===============*/
+.newsletter-section{width: 100%;background-image: url('images/newsletter-section.jpg');background-position: center center;background-size: cover;background-attachment: fixed}
+.newsletter-section .layout{width: 100%;height: 100%;background: rgba(0,0,0,.7);padding: 100px 0;}
+.newsletter-section .layout .title{max-width: 750px;margin: 0 auto;}
+.newsletter-section .layout .title h2{color: white;margin: 0 0 20px 0;}
+.newsletter-section .layout .title p{color: #aeaeae;margin: 0;text-align: center;line-height: 30px;font-size: .95rem;}
+.newsletter-section .layout form{width: 500px;margin: 0 auto;padding-top: 100px;}
+.newsletter-section .layout form input[type="email"]{background:transparent;border: 1px dashed #e4e4e4;border-radius: 4px;padding: 15px 20px;color: white;width: 75%;display: inline-block}
+.newsletter-section .layout form input[type="submit"]{background:#2d085e;border: 1px dashed #e4e4e4;border-radius: 4px;padding: 15px 20px;color: white;cursor: pointer;display: inline-block}
+
+/*=================blog-section===============*/
+.blog-section{width: 100%;background: white;padding: 100px 0;}
+.blog-section .title{max-width: 750px;margin: 0 auto}
+.blog-section .title h2{margin: 0 0 20px 0;}
+.blog-section .title p{text-align: center;font-size: .95rem;}
+.blog-section .content{width: 100%;float: right;margin-top: 50px;}
+.blog-section .content ul{width: 100%;float: right;margin: 0;padding: 0;}
+.blog-section .content ul li{float: right;margin-top: 30px;/*box-shadow: 0 0 5px -1px rgba(0,0,0,.2);padding: 10px 0*/;text-align: center}
+.blog-section .content ul li .layout{background: #fff;box-shadow: 0 3px 20px 2px rgba(0,0,0,.2);padding: 15px 0 ;width: 95%;text-align: center;float: right}
+.blog-section .content ul li .layout img{width: 90%;border-radius: 4px;;overflow: hidden;margin: 0 auto;}
+.blog-section .content ul li .layout .licontent{width: 100%;float: right;padding: 15px 0;display: block;}
+.blog-section .content ul li .layout .licontent h4{padding:0 30px 0 20px;margin: 0;width: 100%;float: right}
+.blog-section .content ul li .layout .licontent h4 a{float: right;text-decoration: none;font-size: 1rem;color: #00020e;}
+.blog-section .content ul li .layout .licontent h4 a:hover{color: gold}
+.blog-section .content ul li .layout .licontent ul{width: 89%;float: right;padding: 0;margin: 15px 20px 15px 0;}
+.blog-section .content ul li .licontent ul li{float: right;margin-right: 10px;margin-top: 0;font-size: 0.74rem;box-shadow: none}
+.blog-section .content ul li .layout .licontent ul li i{color: #2d085e}
+.blog-section .content ul li .layout .licontent p{float: right;margin: 0 0 10px 0;padding:0 30px 0 10px;font-size: .76rem;line-height: 30px;height: 250px;overflow-y: hidden}
+.blog-section .content ul li .read-more{width: 90%;margin: 0 auto;border-radius: 4px;overflow: hidden;font-size: 1rem;}
+.blog-section .content ul li .read-more a{display: block;width: 100%;height: 100%;cursor: pointer;color: gold;text-decoration: none;text-align: center;padding: 15px 0;background: #2d085e;transition: all 1000ms linear;}
+.blog-section .content ul li .read-more a:hover{background: gold;color: #2d085e}
+.blog-section .test{padding: 10px 15px;border: 2px dotted #2e353d;border-radius: 4px;position: relative;z-index: 1}
+.blog-section .btn{margin:30px auto 0 ;}
+
+/*=================footerblog-section==============*/
+.footerblog-section{width: 100%;padding-bottom: 50px;color: #aeaeae;background: #121d25}
+.footerblog-section ul{width: 100%;float: right;padding: 0;}
+.footerblog-section ul li.liMain{float: right}
+.footerblog-section ul li.liMain .title{width: 100%;float: right;padding: 100px 0 30px 0;font-size: 1.25rem;color: white;text-align: center}
+.footerblog-section ul li.widget img{width: 100%;border-radius: 4px;overflow-y: hidden;}
+.footerblog-section ul li.widget p{padding: 20px 10px 5px 10px;font-size: .83rem;line-height: 28px;;margin-bottom: 0;text-align: center}
+.footerblog-section ul li.liMain .ul-icon{width: 100%;float: right;padding: 0;text-align: center}
+.footerblog-section ul li.liMain .ul-icon li{display: inline-block;margin: 15px 10px 0 10px}
+.footerblog-section ul li.liMain .ul-icon li a{display: block;border-radius: 4px;;width: 40px;height: 40px;background: slategrey;;text-align: center;line-height: 40px; }
+.footerblog-section ul li.liMain .ul-icon li a:hover{background: gold}
+.footerblog-section ul li.liMain .ul-icon li a i{color:white;font-weight: bold;transform: rotate(0deg);transition: all 500ms ease}
+.footerblog-section ul li.liMain .ul-icon li a:hover i{color: #02022b;transform: rotate(360deg)}
+.footerblog-section ul li.liMain .content{width: 100%;float: right;margin-top: 20px;}
+.footerblog-section ul li.liMain .radif{width: 100%;float: right;text-align: center;border-bottom: 1px solid #3e3636;padding: 15px 0;}
+.footerblog-section ul li.liMain .radif a{text-decoration: none;color: #aeaeae;font-size: .95rem;;transition: none}
+.footerblog-section ul li.liMain .radif a:hover{color: white}
+.footerblog-section ul li.liMain .ul-gallery{width: 100%;float: right;margin-top: 30px}
+.footerblog-section ul li.liMain .ul-gallery li{float: right;padding: 0 5px;margin-top: 10px}
+.footerblog-section ul li.liMain .ul-gallery li a{display: block;}
+.footerblog-section ul li.liMain .ul-gallery li a img{width: 100%;height: 70px;border-radius: 4px;overflow: hidden}
+
+
+/*=================footercontact-section==============*/
+.footercontact-section{width: 100%;background: white;padding: 100px 0;}
+.footercontact-section .title{max-width: 750px;margin: 0 auto}
+.footercontact-section .title h2{margin: 0 0 20px 0;}
+.footercontact-section .title p{text-align: center;font-size: .95rem;}
+.footercontact-section form{width: 100%;float: right;margin-top: 50px}
+.footercontact-section form ul{width: 100%;float: right;padding: 0;margin: 0}
+.footercontact-section form ul li{float: right;text-align: center;margin-top: 30px;}
+.footercontact-section form ul li input{padding: 10px 15px;border: 2px dotted #000047;border-radius: 4px;width: 96%;color: #606263;}
+.footercontact-section form .txtarea{width: 100%;float: right;margin: 30px 0;}
+.footercontact-section form .txtarea textarea{border: 2px dotted #000047;padding: 10px 15px;border-radius: 4px;;width: 96%;resize: none;height: 150px;color: #606263;}
+.footercontact-section form .submt{width: 100%;float: right;text-align: center}
+.footercontact-section form .submt input{padding: 6px 20px;border:  2px dotted #000047;border-radius: 4px;overflow: hidden;cursor: pointer;color: #393b3c;background: #ef396e;transition: all .2s linear;}
+.footercontact-section form .submt input:hover{color: white;background: #000047;}
+.footercontact-section form ul li input:focus{border: 2px dotted red}
+.footercontact-section form .txtarea textarea:focus{border: 2px dotted red}
